@@ -1,0 +1,193 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    overflow-x: hidden;
+}
+
+#container {
+    background: url('/img/bg.png'); 
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+
+nav {
+    padding: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+nav img {
+    height: 80px; 
+    width: auto; 
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    font-size: large;
+    text-align: right; 
+}
+
+.centered {
+    text-align: center;
+    color: black;
+    padding: 20px;   
+}
+
+.explore-button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 35px;
+}
+
+.section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.section-content {
+    flex: 1;
+    max-width: 600px;
+    line-height: 28px;
+}
+
+.section img {
+    max-width: 400px;
+    height: auto;
+    margin-top: 20px;
+}
+
+#services {
+    background-color: #ebe9e9;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    background-color: white; 
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.view-more-button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.form-container {
+    flex: 1;
+    max-width: 900px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.map-container {
+    flex: 1;
+    max-width: 900px;
+    box-sizing: border-box;
+    margin-top: 85px; 
+}
+
+input, textarea {
+    width: calc(100% - 16px); 
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+}
+
+footer {
+    background: url('/img/bkg.png') no-repeat center center fixed;
+    background-size: cover;
+    color: black;
+    text-align: center;
+    padding: 60px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+.home__class {
+    font-size: 65px; 
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.home {
+    font-size: 25px; 
+    font-style: italic; 
+    margin-top: auto;
+}
+
+.section_about {
+    text-align: justify; 
+    font-size: 20px;
+}
+
+.section_services {
+    text-align: center; 
+    font-size: 14px;
+}
+
+
+.maps {
+    border:0; 
+    width: 100%; 
+    height: 500px;
+}
+
+
