@@ -84,14 +84,13 @@ nav a {
     margin: 20px;
     text-align: center;
     background-color: white; 
-    margin-top: -20px;
 }
 
 .card img {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
-    margin-bottom: 10px;
+   
 }
 
 .view-more-button {
