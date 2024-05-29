@@ -58,7 +58,7 @@ nav a {
     align-items: center;
     padding: 20px;
     text-align: left;
-    margin-bottom: 30px;
+    margin-bottom: 100px;
 }
 
 .section-content {
@@ -70,7 +70,7 @@ nav a {
 .section img {
     max-width: 400px;
     height: auto;
-    margin-top: 20px;
+    margin-top: 100px;
 }
 
 #services {
